@@ -1,4 +1,8 @@
-secreto = 'Amaro'
+import names
+
+name = names.get_first_name()
+
+secreto = name.lower()
 digitadas = []
 chances = 3
 
